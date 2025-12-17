@@ -1,0 +1,14 @@
+package com.wolfie.cqrs.commonapi.dto;
+
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data @NoArgsConstructor @AllArgsConstructor
+public class DebitAccountRequestDto {
+
+    private String accountId;
+    private double amount;
+    private String currency;
+}
